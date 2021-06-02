@@ -69,6 +69,10 @@ a:hover, a:focus{
   font-feature-settings: 'liga';
 }
 
+html{
+  scroll-behavior: smooth;
+  }
+
 html,body {
   width: 100%;
   height: 100%;
@@ -91,7 +95,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
+  background: -webkit-linear-gradient( 90deg, rgba(73,197,182, .9) 0%, rgba(127,86,253, .9) 100%);
   z-index: -1;
 }
 
@@ -130,7 +134,7 @@ html,body {
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #7f56fd;
+  color: #0ab5bd;
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
@@ -298,7 +302,7 @@ html,body {
 }
 
 .button--colorful{
- background-color: #7F56FD;
+ background-color: #0ab5bd;
  font-family: Roboto-Light;
  color: #fff;
 }
@@ -310,9 +314,9 @@ html,body {
 }
 
 .button--default:hover{
-  background-color: #7F56FD;
+  background-color: #0ab5bd;
   color: #fff;
-  border: 1px solid #7F56FD;
+  border: 1px solid #0ab5bd;
 }
 
 .button--margin{
@@ -321,7 +325,7 @@ html,body {
 }
 
 .portfolio__button-group .mixitup-control-active{
-  background-color: #7F56FD;
+  background-color: #0ab5bd;
   color: #fff;
 }
 
@@ -339,7 +343,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgba(10, 181, 189, .9);
   z-index: -1;
 }
 
@@ -435,7 +439,7 @@ html,body {
  right: 0;
  top: 0;
  bottom: 0;
- background-color: rgba(120, 88, 221, .9);
+ background-color: rgb(10, 181, 189);
  z-index: -1;
 }
 
@@ -577,7 +581,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgb(10, 181, 189);
   z-index: -1;
 }
 
@@ -756,7 +760,7 @@ html,body {
 
 .progress-bar--dot-main{
   background: #fff none repeat scroll 0 0;
-  border: 2px solid #7f56fd;
+  border: 2px solid #0ab5bd;
   border-radius: 50%;
   height: 20px;
   position: absolute;
@@ -766,7 +770,7 @@ html,body {
 }
 
 .progress-bar--dot{
-  background: #7f56fd none repeat scroll 0 0;
+  background: #0ab5bd none repeat scroll 0 0;
   border-radius: 50%;
   display: block;
   height: 10px;
@@ -835,7 +839,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgb(10, 181, 189);
   z-index: -1;
 }
 
@@ -910,7 +914,7 @@ html,body {
 }
 
 .blog__single__paragraph--read-more{
- color: #7f56fd;
+ color: #0ab5bd;
 }
 
 @media (max-width: 991px) {
