@@ -259,6 +259,16 @@ html,body {
   display: block;
 }
 
+.about-image{
+  width: 384px;
+  height: 512px;
+}
+
+.about-image, img {
+  border-radius: 10px;
+}
+
+
 @media screen and (max-width: 991px){
   .about__image{
    text-align: center;
@@ -330,7 +340,7 @@ html,body {
 }
 
 .skill--bg{
-  background: url("../assets/images/skill-background.png") no-repeat;
+  background: url("../assets/images/slider-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
