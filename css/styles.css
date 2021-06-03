@@ -1031,7 +1031,7 @@ html,body {
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
   max-width: 500px;
-  margin: 90px auto;
+  margin: 50px auto;
   color: #fff;
   border-radius: 3px;
   text-align: center;
@@ -1102,12 +1102,22 @@ input[type="email"] {
 
 /* Parte resposive del FORMULARIO*/
 
-@media (min-width: 768px) {
-  .formulario {
+@media (max-width: 768px) {
+  .contenedor-form {
       margin-top: 150px;
-      width: 500px;
-      margin: auto;
-      border-radius: 5%;
+      max-width: 560px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media (max-width: 668px) {
+  .contenedor-form {
+      margin-top: 150px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
   }
 }
 /* Fin Area de Clientees*/
