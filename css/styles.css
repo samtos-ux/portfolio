@@ -1038,9 +1038,9 @@ html,body {
 }
 
 .contenedor-form h1 {
+  margin-bottom: 40px;
   display: inline-block;
   text-align: center;
-  margin: 0 0 30px 0;
   font-size: 30px;
   font-weight: 400;
   line-height: 1;
@@ -1049,14 +1049,13 @@ html,body {
 
 .input-contenedor {
   margin-bottom: 25px;
-  /* border: 1px solid #aaa; */
   display: inline-block;
   width: 90%;
   background: rgba(0, 0, 0, 0.0);
   border-radius: 2px;
   border-bottom: 2px solid #fff;
   height: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 #campo-texto {
@@ -1065,18 +1064,17 @@ html,body {
   height: 100px;
   border: none;
   border-bottom: 2px solid #fff;
-  text-align: center;
+  text-align: left;
+  font-size: 14px;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-  text-align: center;
   outline: none;
   background: rgba(0, 0, 0, 0);
   display: inline-block;
   width: 90%;
-  padding: 10px;
   padding-right: 40px;
   color: #fff;
   border: none;
@@ -1086,7 +1084,7 @@ input[type="email"] {
 }
 
 .contenedor-form input[type="submit"] {
-  background-color: darkblue;
+  background-color: rgb(31, 0, 0);
   color: #fff;
   border: none;
   width: 90%;
@@ -1098,7 +1096,7 @@ input[type="email"] {
 }
 
 .contenedor-form input[type="submit"]:hover {
-  background: cadetblue;
+  background: rgb(63, 28, 28);
 }
 
 
